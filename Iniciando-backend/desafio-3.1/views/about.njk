@@ -1,0 +1,64 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+  <title>Desafio 3-1 | Conteudo</title>
+{% endblock head %}
+
+{% block content %}
+
+  <div class="cursos">
+
+    <div class="card" id="starter">
+      <img src="https://avatars1.githubusercontent.com/u/28929274?s=280&v=4" alt="logo">
+      <h4>Starter</h4>
+      <div class="info">
+        <p>4 Módulos</p>
+        <p>
+          <span>Free</span></p>
+      </div>
+    </div>
+
+    <div class="card" id="launchbase">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7aTyHv5wVJ6PiusbQLLfAn4GdRn8T4dtw_g&usqp=CAU" alt="logo">
+      <h4>LaunchBase</h4>
+      <div class="info">
+        <p>8 Módulos</p>
+        <p>
+          <span>R$ 960</span></p>
+      </div>
+    </div>
+
+    <div class="card" id="gostack">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSoWhW30F0vX_J5uaHMtc6aOx7ZOx3PzK-aaA&usqp=CAU" alt="logo">
+      <h4>GoStack</h4>
+      <div class="info">
+        <p>16 Módulos</p>
+        <p>
+          <span>R$ 1500</span></p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Modal -->
+
+  <div class="modal-overlay">
+    <div class="modal">
+      <a class="close-modal">
+        <i class="material-icons">close</i>
+      </a>
+
+      <div class="modal-content">
+        <iframe src="" frameborder="0"></iframe>
+      </div>
+
+      <div class="expandir-modal">
+        <span class="material-icons">
+          aspect_ratio
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+{% endblock content %}
